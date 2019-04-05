@@ -1,0 +1,326 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Effect"
+- "NormalOffsetEffect"
+- "WaveEffect"
+- "RandomWaveEffect"
+- "LightingEffect"
+- "RandomShiftEffect"
+- "RandomWidthEffect"
+provides-nominal:
+- "21StrokeEffectFramework0B0C"
+- "21StrokeEffectFramework012NormalOffsetB0C"
+- "21StrokeEffectFramework04WaveB0C"
+- "21StrokeEffectFramework010RandomWaveB0C"
+- "21StrokeEffectFramework08LightingB0C"
+- "21StrokeEffectFramework011RandomShiftB0C"
+- "21StrokeEffectFramework011RandomWidthB0C"
+provides-member:
+- ["21StrokeEffectFramework0B0C", ""]
+- ["21StrokeEffectFramework012NormalOffsetB0C", ""]
+- ["21StrokeEffectFramework04WaveB0C", ""]
+- ["21StrokeEffectFramework010RandomWaveB0C", ""]
+- ["21StrokeEffectFramework08LightingB0C", ""]
+- ["21StrokeEffectFramework011RandomShiftB0C", ""]
+- ["21StrokeEffectFramework011RandomWidthB0C", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "%"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "/"
+- !private "<="
+- !private "=="
+- !private ">="
+- "AssignmentPrecedence"
+- "ChainPointFloat"
+- "Effect"
+- "Float"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "LightingEffect"
+- "NormalOffsetEffect"
+- "RandomShiftEffect"
+- "RandomWaveEffect"
+- "RandomWidthEffect"
+- !private "StringLiteralType"
+- "UInt32"
+- "WaveEffect"
+- !private "arc4random_uniform"
+- !private "assert"
+- !private "max"
+- !private "min"
+- !private "sin"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "pi"]
+- !private ["SB", "init"]
+- !private ["SB", "pi"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pi"]
+- !private ["21StrokeEffectFramework15ChainPointFloatV", "x"]
+- !private ["21StrokeEffectFramework15ChainPointFloatV", "y"]
+- !private ["SL", "init"]
+- !private ["SL", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pi"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pi"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "pi"]
+- !private ["Se", "init"]
+- !private ["Se", "pi"]
+- ["21StrokeEffectFramework0B0C", "ChainPointFloat"]
+- ["21StrokeEffectFramework0B0C", "Float"]
+- ["21StrokeEffectFramework0B0C", "Int"]
+- ["21StrokeEffectFramework0B0C", "UInt32"]
+- ["21StrokeEffectFramework0B0C", ""]
+- ["21StrokeEffectFramework0B0C", "amplitude"]
+- ["21StrokeEffectFramework0B0C", "apply"]
+- !private ["21StrokeEffectFramework0B0C", "arc4random_uniform"]
+- !private ["21StrokeEffectFramework0B0C", "assert"]
+- ["21StrokeEffectFramework0B0C", "changeOffsetSign"]
+- ["21StrokeEffectFramework0B0C", "changeWidthSign"]
+- ["21StrokeEffectFramework0B0C", "counter"]
+- ["21StrokeEffectFramework0B0C", "currentAmplitude"]
+- ["21StrokeEffectFramework0B0C", "currentPeriod"]
+- ["21StrokeEffectFramework0B0C", "getNewWidthShift"]
+- ["21StrokeEffectFramework0B0C", "init"]
+- ["21StrokeEffectFramework0B0C", "initialOffset"]
+- ["21StrokeEffectFramework0B0C", "keepForNextKPoints"]
+- ["21StrokeEffectFramework0B0C", "keypointDistance"]
+- !private ["21StrokeEffectFramework0B0C", "max"]
+- ["21StrokeEffectFramework0B0C", "maxOffset"]
+- ["21StrokeEffectFramework0B0C", "maxWidth"]
+- !private ["21StrokeEffectFramework0B0C", "min"]
+- ["21StrokeEffectFramework0B0C", "minOffset"]
+- ["21StrokeEffectFramework0B0C", "minWidth"]
+- ["21StrokeEffectFramework0B0C", "nextWidth"]
+- ["21StrokeEffectFramework0B0C", "offset"]
+- ["21StrokeEffectFramework0B0C", "offsetChangeFactor"]
+- ["21StrokeEffectFramework0B0C", "period"]
+- ["21StrokeEffectFramework0B0C", "prevOffset"]
+- ["21StrokeEffectFramework0B0C", "prevWidth"]
+- !private ["21StrokeEffectFramework0B0C", "sin"]
+- ["21StrokeEffectFramework0B0C", "updateEveryNPoints"]
+- ["21StrokeEffectFramework0B0C", "updateParams"]
+- ["21StrokeEffectFramework0B0C", "updateRandomSignEvery"]
+- ["21StrokeEffectFramework0B0C", "updateSignCounter"]
+- ["21StrokeEffectFramework0B0C", "widthChangeFactor"]
+- !private ["SE", "init"]
+- !private ["SE", "pi"]
+- !private ["SQ", "init"]
+- !private ["SQ", "pi"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "pi"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pi"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["Sf", "init"]
+- !private ["Sf", "pi"]
+- !private ["SF", "init"]
+- !private ["SF", "pi"]
+- !private ["SH", "init"]
+- !private ["SH", "pi"]
+- !private ["Si", "init"]
+- ["21StrokeEffectFramework08LightingB0C", "ChainPointFloat"]
+- ["21StrokeEffectFramework08LightingB0C", "Float"]
+- ["21StrokeEffectFramework08LightingB0C", "Int"]
+- !private ["21StrokeEffectFramework08LightingB0C", "UInt32"]
+- !private ["21StrokeEffectFramework08LightingB0C", "amplitude"]
+- ["21StrokeEffectFramework08LightingB0C", "apply"]
+- !private ["21StrokeEffectFramework08LightingB0C", "arc4random_uniform"]
+- !private ["21StrokeEffectFramework08LightingB0C", "counter"]
+- ["21StrokeEffectFramework08LightingB0C", "init"]
+- !private ["21StrokeEffectFramework08LightingB0C", "keypointDistance"]
+- !private ["21StrokeEffectFramework08LightingB0C", "offset"]
+- !private ["21StrokeEffectFramework08LightingB0C", "period"]
+- !private ["21StrokeEffectFramework08LightingB0C", "sin"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "pi"]
+- !private ["s10MirrorPathP", "init"]
+- ["21StrokeEffectFramework012NormalOffsetB0C", "ChainPointFloat"]
+- ["21StrokeEffectFramework012NormalOffsetB0C", "Float"]
+- ["21StrokeEffectFramework012NormalOffsetB0C", "apply"]
+- ["21StrokeEffectFramework012NormalOffsetB0C", "init"]
+- !private ["21StrokeEffectFramework012NormalOffsetB0C", "offset"]
+- !private ["Sj", "init"]
+- !private ["Sj", "pi"]
+- ["21StrokeEffectFramework011RandomShiftB0C", "ChainPointFloat"]
+- ["21StrokeEffectFramework011RandomShiftB0C", "Float"]
+- ["21StrokeEffectFramework011RandomShiftB0C", "Int"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "UInt32"]
+- ["21StrokeEffectFramework011RandomShiftB0C", "apply"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "arc4random_uniform"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "assert"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "changeOffsetSign"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "counter"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "getNewWidthShift"]
+- ["21StrokeEffectFramework011RandomShiftB0C", "init"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "initialOffset"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "max"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "maxOffset"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "min"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "minOffset"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "offsetChangeFactor"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "prevOffset"]
+- !private ["21StrokeEffectFramework011RandomShiftB0C", "updateRandomSignEvery"]
+- ["21StrokeEffectFramework010RandomWaveB0C", "ChainPointFloat"]
+- ["21StrokeEffectFramework010RandomWaveB0C", "Float"]
+- ["21StrokeEffectFramework010RandomWaveB0C", "Int"]
+- !private ["21StrokeEffectFramework010RandomWaveB0C", "UInt32"]
+- !private ["21StrokeEffectFramework010RandomWaveB0C", "amplitude"]
+- ["21StrokeEffectFramework010RandomWaveB0C", "apply"]
+- !private ["21StrokeEffectFramework010RandomWaveB0C", "arc4random_uniform"]
+- !private ["21StrokeEffectFramework010RandomWaveB0C", "counter"]
+- !private ["21StrokeEffectFramework010RandomWaveB0C", "currentAmplitude"]
+- !private ["21StrokeEffectFramework010RandomWaveB0C", "currentPeriod"]
+- ["21StrokeEffectFramework010RandomWaveB0C", "init"]
+- !private ["21StrokeEffectFramework010RandomWaveB0C", "keepForNextKPoints"]
+- !private ["21StrokeEffectFramework010RandomWaveB0C", "keypointDistance"]
+- !private ["21StrokeEffectFramework010RandomWaveB0C", "offset"]
+- !private ["21StrokeEffectFramework010RandomWaveB0C", "period"]
+- !private ["21StrokeEffectFramework010RandomWaveB0C", "sin"]
+- !private ["21StrokeEffectFramework010RandomWaveB0C", "updateParams"]
+- ["21StrokeEffectFramework011RandomWidthB0C", "ChainPointFloat"]
+- ["21StrokeEffectFramework011RandomWidthB0C", "Float"]
+- ["21StrokeEffectFramework011RandomWidthB0C", "Int"]
+- ["21StrokeEffectFramework011RandomWidthB0C", "UInt32"]
+- ["21StrokeEffectFramework011RandomWidthB0C", "apply"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "arc4random_uniform"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "assert"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "changeWidthSign"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "counter"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "getNewWidthShift"]
+- ["21StrokeEffectFramework011RandomWidthB0C", "init"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "keypointDistance"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "max"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "maxWidth"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "min"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "minWidth"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "nextWidth"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "prevWidth"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "updateEveryNPoints"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "updateSignCounter"]
+- !private ["21StrokeEffectFramework011RandomWidthB0C", "widthChangeFactor"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "pi"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "pi"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pi"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "pi"]
+- !private ["s6UInt32V", "init"]
+- !private ["SU", "init"]
+- ["21StrokeEffectFramework04WaveB0C", "ChainPointFloat"]
+- ["21StrokeEffectFramework04WaveB0C", "Float"]
+- ["21StrokeEffectFramework04WaveB0C", "Int"]
+- !private ["21StrokeEffectFramework04WaveB0C", "amplitude"]
+- ["21StrokeEffectFramework04WaveB0C", "apply"]
+- !private ["21StrokeEffectFramework04WaveB0C", "counter"]
+- ["21StrokeEffectFramework04WaveB0C", "init"]
+- !private ["21StrokeEffectFramework04WaveB0C", "keypointDistance"]
+- !private ["21StrokeEffectFramework04WaveB0C", "offset"]
+- !private ["21StrokeEffectFramework04WaveB0C", "period"]
+- !private ["21StrokeEffectFramework04WaveB0C", "sin"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "pi"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "pi"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pi"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "pi"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "pi"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "pi"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pi"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "21StrokeEffectFramework15ChainPointFloatV"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "21StrokeEffectFramework0B0C"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "SF"
+- !private "SH"
+- !private "Si"
+- "21StrokeEffectFramework08LightingB0C"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "21StrokeEffectFramework012NormalOffsetB0C"
+- !private "Sj"
+- "21StrokeEffectFramework011RandomShiftB0C"
+- "21StrokeEffectFramework010RandomWaveB0C"
+- "21StrokeEffectFramework011RandomWidthB0C"
+- !private "s10SIMDScalarP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "SU"
+- "21StrokeEffectFramework04WaveB0C"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MetalKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/externals/outline_strok_drawing_impl/StrokeEffectFramework/StrokeEffectFramework.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Intermediates.noindex/StrokeEffect.build/Debug-iphonesimulator/StrokeEffectFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MetalKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3d650edc1909c4b817a5c653d1ac4976"

@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/admin/Desktop/StarifiedSampleProject/node_modules/lottie-react-native/src/ios/LottieReactNative/LRNContainerView.m \
+  /Users/admin/Desktop/StarifiedSampleProject/node_modules/lottie-react-native/src/ios/LottieReactNative/LRNContainerView.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Modules/module.modulemap \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTValueCallback.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTInterpolatorCallback.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTBlockCallback.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTAnimationCache.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTValueDelegate.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTKeypath.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTComposition.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTAnimationView_Compat.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTAnimationView.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTCacheProvider.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTAnimatedControl.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTAnimatedSwitch.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTAnimationTransitionController.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/Lottie.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h

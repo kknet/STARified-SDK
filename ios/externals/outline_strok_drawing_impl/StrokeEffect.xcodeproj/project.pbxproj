@@ -1,0 +1,1048 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0471A18321A757B3004A3FAF /* _processed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0471A18121A757B2004A3FAF /* _processed.png */; };
+		0471A18421A757B3004A3FAF /* _processed_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 0471A18221A757B3004A3FAF /* _processed_mask.png */; };
+		E2388A531F80CA9600E690CE /* ContourExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2388A521F80CA9600E690CE /* ContourExtractor.swift */; };
+		E23B83E41F646362003E800F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B83E31F646362003E800F /* AppDelegate.swift */; };
+		E23B83E61F646362003E800F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B83E51F646362003E800F /* ViewController.swift */; };
+		E23B83E91F646362003E800F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23B83E71F646362003E800F /* Main.storyboard */; };
+		E23B83EB1F646362003E800F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23B83EA1F646362003E800F /* Assets.xcassets */; };
+		E23B83EE1F646362003E800F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23B83EC1F646362003E800F /* LaunchScreen.storyboard */; };
+		E23B83F91F646362003E800F /* StrokeEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B83F81F646362003E800F /* StrokeEffectTests.swift */; };
+		E23B84041F646362003E800F /* StrokeEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B84031F646362003E800F /* StrokeEffectUITests.swift */; };
+		E23B841A1F652974003E800F /* src.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E23B84171F652974003E800F /* src.jpg */; };
+		E23B84651F66B05C003E800F /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23B84641F66B05C003E800F /* MetalPerformanceShaders.framework */; };
+		E24BEEBC1F6AE0EC000A5981 /* StrokeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24BEEBB1F6AE0EC000A5981 /* StrokeData.swift */; };
+		E260130420317C5500A4B351 /* StrokeEffectLib.m in Sources */ = {isa = PBXBuildFile; fileRef = E260130320317C5500A4B351 /* StrokeEffectLib.m */; };
+		E260130520317C5500A4B351 /* StrokeEffectLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E260130220317C5500A4B351 /* StrokeEffectLib.h */; };
+		E260130920317E2800A4B351 /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23B84641F66B05C003E800F /* MetalPerformanceShaders.framework */; };
+		E260130A20317E3400A4B351 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = E2B048EB1F686C8B00D653C7 /* Shaders.metal */; };
+		E260130C20317E3400A4B351 /* StrokeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24BEEBB1F6AE0EC000A5981 /* StrokeData.swift */; };
+		E260130D20317E3400A4B351 /* ContourExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2388A521F80CA9600E690CE /* ContourExtractor.swift */; };
+		E260130E20317E3400A4B351 /* Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7E391F865D7A0054099E /* Effects.swift */; };
+		E260130F20317E3400A4B351 /* ChainPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7E3D1F8674B20054099E /* ChainPoint.swift */; };
+		E26014382033380B00A4B351 /* StrokeEffectFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E260142F2033380A00A4B351 /* StrokeEffectFramework.framework */; };
+		E260143D2033380B00A4B351 /* StrokeEffectFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260143C2033380B00A4B351 /* StrokeEffectFrameworkTests.swift */; };
+		E260143F2033380B00A4B351 /* StrokeEffectFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E26014312033380B00A4B351 /* StrokeEffectFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E260144D20333ADE00A4B351 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = E2B048EB1F686C8B00D653C7 /* Shaders.metal */; };
+		E260144F20333ADE00A4B351 /* StrokeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24BEEBB1F6AE0EC000A5981 /* StrokeData.swift */; };
+		E260145020333ADE00A4B351 /* ContourExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2388A521F80CA9600E690CE /* ContourExtractor.swift */; };
+		E260145120333ADE00A4B351 /* Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7E391F865D7A0054099E /* Effects.swift */; };
+		E260145220333ADE00A4B351 /* ChainPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7E3D1F8674B20054099E /* ChainPoint.swift */; };
+		E26014A020335EA600A4B351 /* StrokeDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260149F20335EA600A4B351 /* StrokeDrawer.swift */; };
+		E26014A120336CBC00A4B351 /* StrokeDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260149F20335EA600A4B351 /* StrokeDrawer.swift */; };
+		E2B048EC1F686C8B00D653C7 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = E2B048EB1F686C8B00D653C7 /* Shaders.metal */; };
+		E2E5A1AD1F6C1A1600A46661 /* mask_binarized.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5A1AB1F6C1A1600A46661 /* mask_binarized.png */; };
+		E2E5A1AE1F6C1A1600A46661 /* src.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5A1AC1F6C1A1600A46661 /* src.png */; };
+		E2FB7E3A1F865D7A0054099E /* Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7E391F865D7A0054099E /* Effects.swift */; };
+		E2FB7E3E1F8674B20054099E /* ChainPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB7E3D1F8674B20054099E /* ChainPoint.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E23B83F51F646362003E800F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23B83D81F646361003E800F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23B83DF1F646361003E800F;
+			remoteInfo = StrokeEffect;
+		};
+		E23B84001F646362003E800F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23B83D81F646361003E800F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23B83DF1F646361003E800F;
+			remoteInfo = StrokeEffect;
+		};
+		E26014392033380B00A4B351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23B83D81F646361003E800F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E260142E2033380A00A4B351;
+			remoteInfo = StrokeEffectFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E26012FE20317C5500A4B351 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E260130520317C5500A4B351 /* StrokeEffectLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0471A18121A757B2004A3FAF /* _processed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _processed.png; sourceTree = SOURCE_ROOT; };
+		0471A18221A757B3004A3FAF /* _processed_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _processed_mask.png; sourceTree = SOURCE_ROOT; };
+		E2388A521F80CA9600E690CE /* ContourExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContourExtractor.swift; sourceTree = "<group>"; };
+		E23B83E01F646361003E800F /* StrokeEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrokeEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23B83E31F646362003E800F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E23B83E51F646362003E800F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E23B83E81F646362003E800F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E23B83EA1F646362003E800F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E23B83ED1F646362003E800F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E23B83EF1F646362003E800F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23B83F41F646362003E800F /* StrokeEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrokeEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23B83F81F646362003E800F /* StrokeEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeEffectTests.swift; sourceTree = "<group>"; };
+		E23B83FA1F646362003E800F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23B83FF1F646362003E800F /* StrokeEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrokeEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23B84031F646362003E800F /* StrokeEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeEffectUITests.swift; sourceTree = "<group>"; };
+		E23B84051F646362003E800F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23B84171F652974003E800F /* src.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = src.jpg; sourceTree = "<group>"; };
+		E23B84641F66B05C003E800F /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
+		E24BEEBB1F6AE0EC000A5981 /* StrokeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeData.swift; sourceTree = "<group>"; };
+		E260130020317C5500A4B351 /* libStrokeEffectLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStrokeEffectLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E260130220317C5500A4B351 /* StrokeEffectLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrokeEffectLib.h; sourceTree = "<group>"; };
+		E260130320317C5500A4B351 /* StrokeEffectLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrokeEffectLib.m; sourceTree = "<group>"; };
+		E260142F2033380A00A4B351 /* StrokeEffectFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StrokeEffectFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26014312033380B00A4B351 /* StrokeEffectFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrokeEffectFramework.h; sourceTree = "<group>"; };
+		E26014322033380B00A4B351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26014372033380B00A4B351 /* StrokeEffectFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrokeEffectFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E260143C2033380B00A4B351 /* StrokeEffectFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeEffectFrameworkTests.swift; sourceTree = "<group>"; };
+		E260143E2033380B00A4B351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E260149F20335EA600A4B351 /* StrokeDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeDrawer.swift; sourceTree = "<group>"; };
+		E2B048EB1F686C8B00D653C7 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		E2E5A1AB1F6C1A1600A46661 /* mask_binarized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_binarized.png; sourceTree = SOURCE_ROOT; };
+		E2E5A1AC1F6C1A1600A46661 /* src.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = src.png; sourceTree = SOURCE_ROOT; };
+		E2FB7E391F865D7A0054099E /* Effects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effects.swift; sourceTree = "<group>"; };
+		E2FB7E3D1F8674B20054099E /* ChainPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainPoint.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E23B83DD1F646361003E800F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23B84651F66B05C003E800F /* MetalPerformanceShaders.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23B83F11F646362003E800F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23B83FC1F646362003E800F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26012FD20317C5500A4B351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E260130920317E2800A4B351 /* MetalPerformanceShaders.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E260142B2033380A00A4B351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26014342033380B00A4B351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26014382033380B00A4B351 /* StrokeEffectFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E23B83D71F646361003E800F = {
+			isa = PBXGroup;
+			children = (
+				E23B83E21F646361003E800F /* StrokeEffect */,
+				E23B83F71F646362003E800F /* StrokeEffectTests */,
+				E23B84021F646362003E800F /* StrokeEffectUITests */,
+				E260130120317C5500A4B351 /* StrokeEffectLib */,
+				E26014302033380B00A4B351 /* StrokeEffectFramework */,
+				E260143B2033380B00A4B351 /* StrokeEffectFrameworkTests */,
+				E23B83E11F646361003E800F /* Products */,
+				E23B84631F66B05C003E800F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E23B83E11F646361003E800F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E23B83E01F646361003E800F /* StrokeEffect.app */,
+				E23B83F41F646362003E800F /* StrokeEffectTests.xctest */,
+				E23B83FF1F646362003E800F /* StrokeEffectUITests.xctest */,
+				E260130020317C5500A4B351 /* libStrokeEffectLib.a */,
+				E260142F2033380A00A4B351 /* StrokeEffectFramework.framework */,
+				E26014372033380B00A4B351 /* StrokeEffectFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E23B83E21F646361003E800F /* StrokeEffect */ = {
+			isa = PBXGroup;
+			children = (
+				0471A18221A757B3004A3FAF /* _processed_mask.png */,
+				0471A18121A757B2004A3FAF /* _processed.png */,
+				E2E5A1AB1F6C1A1600A46661 /* mask_binarized.png */,
+				E2E5A1AC1F6C1A1600A46661 /* src.png */,
+				E23B84171F652974003E800F /* src.jpg */,
+				E23B83E31F646362003E800F /* AppDelegate.swift */,
+				E23B83E51F646362003E800F /* ViewController.swift */,
+				E23B83E71F646362003E800F /* Main.storyboard */,
+				E23B83EA1F646362003E800F /* Assets.xcassets */,
+				E23B83EC1F646362003E800F /* LaunchScreen.storyboard */,
+				E23B83EF1F646362003E800F /* Info.plist */,
+				E2B048EB1F686C8B00D653C7 /* Shaders.metal */,
+				E24BEEBB1F6AE0EC000A5981 /* StrokeData.swift */,
+				E260149F20335EA600A4B351 /* StrokeDrawer.swift */,
+				E2388A521F80CA9600E690CE /* ContourExtractor.swift */,
+				E2FB7E391F865D7A0054099E /* Effects.swift */,
+				E2FB7E3D1F8674B20054099E /* ChainPoint.swift */,
+			);
+			path = StrokeEffect;
+			sourceTree = "<group>";
+		};
+		E23B83F71F646362003E800F /* StrokeEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				E23B83F81F646362003E800F /* StrokeEffectTests.swift */,
+				E23B83FA1F646362003E800F /* Info.plist */,
+			);
+			path = StrokeEffectTests;
+			sourceTree = "<group>";
+		};
+		E23B84021F646362003E800F /* StrokeEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E23B84031F646362003E800F /* StrokeEffectUITests.swift */,
+				E23B84051F646362003E800F /* Info.plist */,
+			);
+			path = StrokeEffectUITests;
+			sourceTree = "<group>";
+		};
+		E23B84631F66B05C003E800F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E23B84641F66B05C003E800F /* MetalPerformanceShaders.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E260130120317C5500A4B351 /* StrokeEffectLib */ = {
+			isa = PBXGroup;
+			children = (
+				E260130220317C5500A4B351 /* StrokeEffectLib.h */,
+				E260130320317C5500A4B351 /* StrokeEffectLib.m */,
+			);
+			path = StrokeEffectLib;
+			sourceTree = "<group>";
+		};
+		E26014302033380B00A4B351 /* StrokeEffectFramework */ = {
+			isa = PBXGroup;
+			children = (
+				E26014312033380B00A4B351 /* StrokeEffectFramework.h */,
+				E26014322033380B00A4B351 /* Info.plist */,
+			);
+			path = StrokeEffectFramework;
+			sourceTree = "<group>";
+		};
+		E260143B2033380B00A4B351 /* StrokeEffectFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E260143C2033380B00A4B351 /* StrokeEffectFrameworkTests.swift */,
+				E260143E2033380B00A4B351 /* Info.plist */,
+			);
+			path = StrokeEffectFrameworkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E260142C2033380A00A4B351 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E260143F2033380B00A4B351 /* StrokeEffectFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E23B83DF1F646361003E800F /* StrokeEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23B84081F646362003E800F /* Build configuration list for PBXNativeTarget "StrokeEffect" */;
+			buildPhases = (
+				E23B83DC1F646361003E800F /* Sources */,
+				E23B83DD1F646361003E800F /* Frameworks */,
+				E23B83DE1F646361003E800F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrokeEffect;
+			productName = StrokeEffect;
+			productReference = E23B83E01F646361003E800F /* StrokeEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E23B83F31F646362003E800F /* StrokeEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23B840B1F646362003E800F /* Build configuration list for PBXNativeTarget "StrokeEffectTests" */;
+			buildPhases = (
+				E23B83F01F646362003E800F /* Sources */,
+				E23B83F11F646362003E800F /* Frameworks */,
+				E23B83F21F646362003E800F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23B83F61F646362003E800F /* PBXTargetDependency */,
+			);
+			name = StrokeEffectTests;
+			productName = StrokeEffectTests;
+			productReference = E23B83F41F646362003E800F /* StrokeEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E23B83FE1F646362003E800F /* StrokeEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23B840E1F646362003E800F /* Build configuration list for PBXNativeTarget "StrokeEffectUITests" */;
+			buildPhases = (
+				E23B83FB1F646362003E800F /* Sources */,
+				E23B83FC1F646362003E800F /* Frameworks */,
+				E23B83FD1F646362003E800F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23B84011F646362003E800F /* PBXTargetDependency */,
+			);
+			name = StrokeEffectUITests;
+			productName = StrokeEffectUITests;
+			productReference = E23B83FF1F646362003E800F /* StrokeEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E26012FF20317C5500A4B351 /* StrokeEffectLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E260130820317C5500A4B351 /* Build configuration list for PBXNativeTarget "StrokeEffectLib" */;
+			buildPhases = (
+				E26012FC20317C5500A4B351 /* Sources */,
+				E26012FD20317C5500A4B351 /* Frameworks */,
+				E26012FE20317C5500A4B351 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrokeEffectLib;
+			productName = StrokeEffectLib;
+			productReference = E260130020317C5500A4B351 /* libStrokeEffectLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E260142E2033380A00A4B351 /* StrokeEffectFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26014442033380B00A4B351 /* Build configuration list for PBXNativeTarget "StrokeEffectFramework" */;
+			buildPhases = (
+				E260142A2033380A00A4B351 /* Sources */,
+				E260142B2033380A00A4B351 /* Frameworks */,
+				E260142C2033380A00A4B351 /* Headers */,
+				E260142D2033380A00A4B351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrokeEffectFramework;
+			productName = StrokeEffectFramework;
+			productReference = E260142F2033380A00A4B351 /* StrokeEffectFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E26014362033380B00A4B351 /* StrokeEffectFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26014452033380B00A4B351 /* Build configuration list for PBXNativeTarget "StrokeEffectFrameworkTests" */;
+			buildPhases = (
+				E26014332033380B00A4B351 /* Sources */,
+				E26014342033380B00A4B351 /* Frameworks */,
+				E26014352033380B00A4B351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E260143A2033380B00A4B351 /* PBXTargetDependency */,
+			);
+			name = StrokeEffectFrameworkTests;
+			productName = StrokeEffectFrameworkTests;
+			productReference = E26014372033380B00A4B351 /* StrokeEffectFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E23B83D81F646361003E800F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ikoretskiy;
+				TargetAttributes = {
+					E23B83DF1F646361003E800F = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					E23B83F31F646362003E800F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E23B83DF1F646361003E800F;
+					};
+					E23B83FE1F646362003E800F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E23B83DF1F646361003E800F;
+					};
+					E26012FF20317C5500A4B351 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E260142E2033380A00A4B351 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E26014362033380B00A4B351 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E23B83DB1F646361003E800F /* Build configuration list for PBXProject "StrokeEffect" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = E23B83D71F646361003E800F;
+			productRefGroup = E23B83E11F646361003E800F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E23B83DF1F646361003E800F /* StrokeEffect */,
+				E23B83F31F646362003E800F /* StrokeEffectTests */,
+				E23B83FE1F646362003E800F /* StrokeEffectUITests */,
+				E26012FF20317C5500A4B351 /* StrokeEffectLib */,
+				E260142E2033380A00A4B351 /* StrokeEffectFramework */,
+				E26014362033380B00A4B351 /* StrokeEffectFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E23B83DE1F646361003E800F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0471A18421A757B3004A3FAF /* _processed_mask.png in Resources */,
+				E2E5A1AD1F6C1A1600A46661 /* mask_binarized.png in Resources */,
+				E2E5A1AE1F6C1A1600A46661 /* src.png in Resources */,
+				E23B83EE1F646362003E800F /* LaunchScreen.storyboard in Resources */,
+				0471A18321A757B3004A3FAF /* _processed.png in Resources */,
+				E23B83EB1F646362003E800F /* Assets.xcassets in Resources */,
+				E23B83E91F646362003E800F /* Main.storyboard in Resources */,
+				E23B841A1F652974003E800F /* src.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23B83F21F646362003E800F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23B83FD1F646362003E800F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E260142D2033380A00A4B351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26014352033380B00A4B351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E23B83DC1F646361003E800F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FB7E3E1F8674B20054099E /* ChainPoint.swift in Sources */,
+				E24BEEBC1F6AE0EC000A5981 /* StrokeData.swift in Sources */,
+				E26014A020335EA600A4B351 /* StrokeDrawer.swift in Sources */,
+				E2FB7E3A1F865D7A0054099E /* Effects.swift in Sources */,
+				E2B048EC1F686C8B00D653C7 /* Shaders.metal in Sources */,
+				E23B83E61F646362003E800F /* ViewController.swift in Sources */,
+				E2388A531F80CA9600E690CE /* ContourExtractor.swift in Sources */,
+				E23B83E41F646362003E800F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23B83F01F646362003E800F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23B83F91F646362003E800F /* StrokeEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23B83FB1F646362003E800F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23B84041F646362003E800F /* StrokeEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26012FC20317C5500A4B351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E260130A20317E3400A4B351 /* Shaders.metal in Sources */,
+				E260130C20317E3400A4B351 /* StrokeData.swift in Sources */,
+				E260130D20317E3400A4B351 /* ContourExtractor.swift in Sources */,
+				E260130E20317E3400A4B351 /* Effects.swift in Sources */,
+				E260130F20317E3400A4B351 /* ChainPoint.swift in Sources */,
+				E260130420317C5500A4B351 /* StrokeEffectLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E260142A2033380A00A4B351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26014A120336CBC00A4B351 /* StrokeDrawer.swift in Sources */,
+				E260144D20333ADE00A4B351 /* Shaders.metal in Sources */,
+				E260144F20333ADE00A4B351 /* StrokeData.swift in Sources */,
+				E260145020333ADE00A4B351 /* ContourExtractor.swift in Sources */,
+				E260145120333ADE00A4B351 /* Effects.swift in Sources */,
+				E260145220333ADE00A4B351 /* ChainPoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26014332033380B00A4B351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E260143D2033380B00A4B351 /* StrokeEffectFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E23B83F61F646362003E800F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23B83DF1F646361003E800F /* StrokeEffect */;
+			targetProxy = E23B83F51F646362003E800F /* PBXContainerItemProxy */;
+		};
+		E23B84011F646362003E800F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23B83DF1F646361003E800F /* StrokeEffect */;
+			targetProxy = E23B84001F646362003E800F /* PBXContainerItemProxy */;
+		};
+		E260143A2033380B00A4B351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E260142E2033380A00A4B351 /* StrokeEffectFramework */;
+			targetProxy = E26014392033380B00A4B351 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E23B83E71F646362003E800F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E23B83E81F646362003E800F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E23B83EC1F646362003E800F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E23B83ED1F646362003E800F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E23B84061F646362003E800F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E23B84071F646362003E800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E23B84091F646362003E800F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				INFOPLIST_FILE = StrokeEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holonis.starify.effects.StrokeEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E23B840A1F646362003E800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				INFOPLIST_FILE = StrokeEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holonis.starify.effects.StrokeEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E23B840C1F646362003E800F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				INFOPLIST_FILE = StrokeEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ikoretskiy.StrokeEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrokeEffect.app/StrokeEffect";
+			};
+			name = Debug;
+		};
+		E23B840D1F646362003E800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				INFOPLIST_FILE = StrokeEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ikoretskiy.StrokeEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrokeEffect.app/StrokeEffect";
+			};
+			name = Release;
+		};
+		E23B840F1F646362003E800F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				INFOPLIST_FILE = StrokeEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ikoretskiy.StrokeEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StrokeEffect;
+			};
+			name = Debug;
+		};
+		E23B84101F646362003E800F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				INFOPLIST_FILE = StrokeEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ikoretskiy.StrokeEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StrokeEffect;
+			};
+			name = Release;
+		};
+		E260130620317C5500A4B351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHNA38J699;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E260130720317C5500A4B351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FHNA38J699;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E26014402033380B00A4B351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				INFOPLIST_FILE = StrokeEffectFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ikoretskiy.StrokeEffectFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E26014412033380B00A4B351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				INFOPLIST_FILE = StrokeEffectFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ikoretskiy.StrokeEffectFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E26014422033380B00A4B351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				INFOPLIST_FILE = StrokeEffectFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ikoretskiy.StrokeEffectFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E26014432033380B00A4B351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = StrokeEffectFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ikoretskiy.StrokeEffectFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E23B83DB1F646361003E800F /* Build configuration list for PBXProject "StrokeEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23B84061F646362003E800F /* Debug */,
+				E23B84071F646362003E800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23B84081F646362003E800F /* Build configuration list for PBXNativeTarget "StrokeEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23B84091F646362003E800F /* Debug */,
+				E23B840A1F646362003E800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23B840B1F646362003E800F /* Build configuration list for PBXNativeTarget "StrokeEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23B840C1F646362003E800F /* Debug */,
+				E23B840D1F646362003E800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23B840E1F646362003E800F /* Build configuration list for PBXNativeTarget "StrokeEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23B840F1F646362003E800F /* Debug */,
+				E23B84101F646362003E800F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E260130820317C5500A4B351 /* Build configuration list for PBXNativeTarget "StrokeEffectLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E260130620317C5500A4B351 /* Debug */,
+				E260130720317C5500A4B351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26014442033380B00A4B351 /* Build configuration list for PBXNativeTarget "StrokeEffectFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26014402033380B00A4B351 /* Debug */,
+				E26014412033380B00A4B351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26014452033380B00A4B351 /* Build configuration list for PBXNativeTarget "StrokeEffectFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26014422033380B00A4B351 /* Debug */,
+				E26014432033380B00A4B351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E23B83D81F646361003E800F /* Project object */;
+}

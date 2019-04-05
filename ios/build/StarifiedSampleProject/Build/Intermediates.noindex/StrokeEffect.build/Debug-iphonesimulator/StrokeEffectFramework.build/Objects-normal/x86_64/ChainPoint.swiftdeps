@@ -1,0 +1,157 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChainPointInt"
+- "ChainPointFloat"
+- "+="
+- "+"
+- "*="
+- "*"
+- "*"
+- "/="
+- "/="
+provides-nominal:
+- "21StrokeEffectFramework13ChainPointIntV"
+- "21StrokeEffectFramework15ChainPointFloatV"
+provides-member:
+- ["21StrokeEffectFramework13ChainPointIntV", ""]
+- ["21StrokeEffectFramework15ChainPointFloatV", ""]
+- ["21StrokeEffectFramework15ChainPointFloatV", "+="]
+- ["21StrokeEffectFramework15ChainPointFloatV", "+"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "*="]
+- ["21StrokeEffectFramework15ChainPointFloatV", "*"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "*"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "/="]
+- ["21StrokeEffectFramework15ChainPointFloatV", "/="]
+provides-dynamic-lookup:
+depends-top-level:
+- "*"
+- "*="
+- "+"
+- "+="
+- !private "-"
+- !private "/"
+- "/="
+- "AssignmentPrecedence"
+- "ChainPointFloat"
+- "ChainPointInt"
+- "Float"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "sqrt"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SB", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "*"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "*="]
+- ["21StrokeEffectFramework15ChainPointFloatV", "+"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "+="]
+- ["21StrokeEffectFramework15ChainPointFloatV", "/="]
+- ["21StrokeEffectFramework15ChainPointFloatV", "ChainPointFloat"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "ChainPointInt"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "Float"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "Int"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "copy"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "depth"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "distTo"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "init"]
+- !private ["21StrokeEffectFramework15ChainPointFloatV", "sqrt"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "x"]
+- ["21StrokeEffectFramework15ChainPointFloatV", "y"]
+- ["21StrokeEffectFramework13ChainPointIntV", "Int"]
+- ["21StrokeEffectFramework13ChainPointIntV", "depth"]
+- ["21StrokeEffectFramework13ChainPointIntV", "init"]
+- ["21StrokeEffectFramework13ChainPointIntV", "x"]
+- ["21StrokeEffectFramework13ChainPointIntV", "y"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["Sj", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "s7CVarArgP"
+- "21StrokeEffectFramework15ChainPointFloatV"
+- "21StrokeEffectFramework13ChainPointIntV"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "Sf"
+- !private "SF"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "Sj"
+- !private "s10SIMDScalarP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MetalKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/externals/outline_strok_drawing_impl/StrokeEffectFramework/StrokeEffectFramework.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Intermediates.noindex/StrokeEffect.build/Debug-iphonesimulator/StrokeEffectFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MetalKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e980a64c0822bea5fc81002e72bad57f"

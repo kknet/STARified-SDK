@@ -1,0 +1,675 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MultiArrayType"
+- "MultiArray"
+- "+"
+- "*"
+provides-nominal:
+- "10StarifySDK14MultiArrayTypeP"
+- "Sd"
+- "Sf"
+- "s5Int32V"
+- "10StarifySDK10MultiArrayV"
+provides-member:
+- ["10StarifySDK14MultiArrayTypeP", ""]
+- ["Sd", ""]
+- ["Sf", ""]
+- ["s5Int32V", ""]
+- ["10StarifySDK10MultiArrayV", ""]
+- ["10StarifySDK10MultiArrayV", "image"]
+- ["10StarifySDK10MultiArrayV", "toRawBytesRGBA"]
+- ["10StarifySDK10MultiArrayV", "toRawBytesRGBATranHV"]
+- ["10StarifySDK10MultiArrayV", "toRawBytesGray"]
+- ["10StarifySDK10MultiArrayV", "image"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "%"
+- !private "&&"
+- "*"
+- "+"
+- !private "+="
+- !private "-"
+- !private "..<"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private ">"
+- !private ">="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Comparable"
+- "CustomStringConvertible"
+- "Double"
+- "Float"
+- "Int"
+- "Int32"
+- "MLMultiArray"
+- "MLMultiArrayDataType"
+- !private "MemoryLayout"
+- "MultiArray"
+- "MultiArrayType"
+- !private "NSNumber"
+- !private "OpaquePointer"
+- "String"
+- "UIImage"
+- "UInt8"
+- !private "UnicodeScalarType"
+- "UnsafeMutablePointer"
+- !private "clamp"
+- !private "memset"
+- !private "precondition"
+- !private "print"
+- !private "stride"
+depends-member:
+- ["s18AdditiveArithmeticP", "*"]
+- ["s18AdditiveArithmeticP", "+"]
+- !private ["s18AdditiveArithmeticP", "UInt8"]
+- ["s18AdditiveArithmeticP", "init"]
+- ["s18AdditiveArithmeticP", "multiArrayDataType"]
+- ["s18AdditiveArithmeticP", "toUInt8"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "reduce"]
+- !private ["SK", "subscript"]
+- ["SB", "*"]
+- ["SB", "+"]
+- !private ["SB", "UInt8"]
+- ["SB", "init"]
+- ["SB", "multiArrayDataType"]
+- ["SB", "toUInt8"]
+- ["Sz", "*"]
+- ["Sz", "+"]
+- !private ["Sz", "UInt8"]
+- ["Sz", "init"]
+- ["Sz", "multiArrayDataType"]
+- ["Sz", "toUInt8"]
+- ["s7CVarArgP", "*"]
+- ["s7CVarArgP", "+"]
+- !private ["s7CVarArgP", "UInt8"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataPointer"]
+- !private ["s7CVarArgP", "fromByteArrayGray"]
+- !private ["s7CVarArgP", "fromByteArrayRGBA"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "multiArrayDataType"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "shape"]
+- !private ["s7CVarArgP", "strides"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "toUInt8"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "subscript"]
+- ["SL", "*"]
+- ["SL", "+"]
+- ["SL", "Int"]
+- ["SL", "MLMultiArrayDataType"]
+- ["SL", "UInt8"]
+- ["SL", ""]
+- ["SL", "init"]
+- ["SL", "multiArrayDataType"]
+- !private ["SL", "subscript"]
+- ["SL", "toUInt8"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "reduce"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "*"]
+- ["s28CustomDebugStringConvertibleP", "+"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt8"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "fromByteArrayGray"]
+- !private ["s28CustomDebugStringConvertibleP", "fromByteArrayRGBA"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "multiArrayDataType"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "shape"]
+- !private ["s28CustomDebugStringConvertibleP", "strides"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "toUInt8"]
+- ["s17CustomReflectableP", "*"]
+- ["s17CustomReflectableP", "+"]
+- !private ["s17CustomReflectableP", "UInt8"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "multiArrayDataType"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "toUInt8"]
+- ["s23CustomStringConvertibleP", "*"]
+- ["s23CustomStringConvertibleP", "+"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "MLMultiArray"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- !private ["s23CustomStringConvertibleP", "MultiArray"]
+- !private ["s23CustomStringConvertibleP", "OpaquePointer"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutablePointer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "array"]
+- !private ["s23CustomStringConvertibleP", "clamp"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataPointer"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "fromByteArrayGray"]
+- !private ["s23CustomStringConvertibleP", "fromByteArrayRGBA"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "memset"]
+- ["s23CustomStringConvertibleP", "multiArrayDataType"]
+- !private ["s23CustomStringConvertibleP", "offset"]
+- !private ["s23CustomStringConvertibleP", "pointer"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "shape"]
+- !private ["s23CustomStringConvertibleP", "stride"]
+- !private ["s23CustomStringConvertibleP", "strides"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "toRawBytesGray"]
+- !private ["s23CustomStringConvertibleP", "toRawBytesRGBA"]
+- ["s23CustomStringConvertibleP", "toUInt8"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "reduce"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- ["Se", "*"]
+- ["Se", "+"]
+- !private ["Se", "UInt8"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- ["Se", "multiArrayDataType"]
+- !private ["Se", "reduce"]
+- !private ["Se", "subscript"]
+- ["Se", "toUInt8"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["Sd", "*"]
+- ["Sd", "+"]
+- ["Sd", "MLMultiArrayDataType"]
+- ["Sd", "UInt8"]
+- ["Sd", "deinit"]
+- ["Sd", "init"]
+- ["Sd", "multiArrayDataType"]
+- ["Sd", "toUInt8"]
+- ["SE", "*"]
+- ["SE", "+"]
+- !private ["SE", "UInt8"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- ["SE", "multiArrayDataType"]
+- !private ["SE", "reduce"]
+- !private ["SE", "subscript"]
+- ["SE", "toUInt8"]
+- ["SQ", "*"]
+- ["SQ", "+"]
+- ["SQ", "Int"]
+- ["SQ", "MLMultiArrayDataType"]
+- ["SQ", "UInt8"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dataPointer"]
+- !private ["SQ", "double"]
+- !private ["SQ", "float32"]
+- !private ["SQ", "fromByteArrayGray"]
+- !private ["SQ", "fromByteArrayRGBA"]
+- ["SQ", "init"]
+- !private ["SQ", "int32"]
+- ["SQ", "multiArrayDataType"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "shape"]
+- !private ["SQ", "strides"]
+- !private ["SQ", "subscript"]
+- ["SQ", "toUInt8"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "*"]
+- ["s25ExpressibleByFloatLiteralP", "+"]
+- !private ["s25ExpressibleByFloatLiteralP", "UInt8"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "multiArrayDataType"]
+- ["s25ExpressibleByFloatLiteralP", "toUInt8"]
+- ["s27ExpressibleByIntegerLiteralP", "*"]
+- ["s27ExpressibleByIntegerLiteralP", "+"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UInt8"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "multiArrayDataType"]
+- ["s27ExpressibleByIntegerLiteralP", "toUInt8"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "*"]
+- ["s17FixedWidthIntegerP", "+"]
+- !private ["s17FixedWidthIntegerP", "UInt8"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["s17FixedWidthIntegerP", "multiArrayDataType"]
+- ["s17FixedWidthIntegerP", "toUInt8"]
+- ["Sf", "*"]
+- ["Sf", "+"]
+- ["Sf", "MLMultiArrayDataType"]
+- ["Sf", "UInt8"]
+- ["Sf", "deinit"]
+- ["Sf", "init"]
+- ["Sf", "multiArrayDataType"]
+- ["Sf", "toUInt8"]
+- ["SF", "*"]
+- ["SF", "+"]
+- !private ["SF", "UInt8"]
+- ["SF", "init"]
+- ["SF", "multiArrayDataType"]
+- ["SF", "toUInt8"]
+- ["SH", "*"]
+- ["SH", "+"]
+- !private ["SH", "UInt8"]
+- !private ["SH", "count"]
+- !private ["SH", "dataPointer"]
+- !private ["SH", "double"]
+- !private ["SH", "float32"]
+- !private ["SH", "fromByteArrayGray"]
+- !private ["SH", "fromByteArrayRGBA"]
+- ["SH", "init"]
+- !private ["SH", "int32"]
+- ["SH", "multiArrayDataType"]
+- !private ["SH", "reduce"]
+- !private ["SH", "shape"]
+- !private ["SH", "strides"]
+- !private ["SH", "subscript"]
+- ["SH", "toUInt8"]
+- ["s5Int32V", "*"]
+- ["s5Int32V", "+"]
+- ["s5Int32V", "MLMultiArrayDataType"]
+- ["s5Int32V", "UInt8"]
+- ["s5Int32V", "deinit"]
+- ["s5Int32V", "init"]
+- ["s5Int32V", "multiArrayDataType"]
+- ["s5Int32V", "toUInt8"]
+- ["s25LosslessStringConvertibleP", "*"]
+- ["s25LosslessStringConvertibleP", "+"]
+- !private ["s25LosslessStringConvertibleP", "UInt8"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "multiArrayDataType"]
+- ["s25LosslessStringConvertibleP", "toUInt8"]
+- !private ["So12MLMultiArrayC", "dataPointer"]
+- !private ["So12MLMultiArrayC", "init"]
+- !private ["So12MLMultiArrayC", "shape"]
+- !private ["So12MLMultiArrayC", "strides"]
+- !private ["So20MLMultiArrayDataTypeV", "double"]
+- !private ["So20MLMultiArrayDataTypeV", "float32"]
+- !private ["So20MLMultiArrayDataTypeV", "int32"]
+- !private ["s12MemoryLayoutO", "stride"]
+- !private ["s10MirrorPathP", "init"]
+- ["10StarifySDK10MultiArrayV", "Int"]
+- ["10StarifySDK10MultiArrayV", "MLMultiArray"]
+- !private ["10StarifySDK10MultiArrayV", "MemoryLayout"]
+- ["10StarifySDK10MultiArrayV", "MultiArray"]
+- !private ["10StarifySDK10MultiArrayV", "NSNumber"]
+- !private ["10StarifySDK10MultiArrayV", "OpaquePointer"]
+- ["10StarifySDK10MultiArrayV", "String"]
+- ["10StarifySDK10MultiArrayV", "UIImage"]
+- ["10StarifySDK10MultiArrayV", "UInt8"]
+- ["10StarifySDK10MultiArrayV", "UnsafeMutablePointer"]
+- ["10StarifySDK10MultiArrayV", "array"]
+- !private ["10StarifySDK10MultiArrayV", "clamp"]
+- ["10StarifySDK10MultiArrayV", "count"]
+- ["10StarifySDK10MultiArrayV", "deinit"]
+- ["10StarifySDK10MultiArrayV", "description"]
+- ["10StarifySDK10MultiArrayV", "image"]
+- ["10StarifySDK10MultiArrayV", "init"]
+- !private ["10StarifySDK10MultiArrayV", "memset"]
+- ["10StarifySDK10MultiArrayV", "offset"]
+- ["10StarifySDK10MultiArrayV", "pointer"]
+- !private ["10StarifySDK10MultiArrayV", "precondition"]
+- !private ["10StarifySDK10MultiArrayV", "print"]
+- ["10StarifySDK10MultiArrayV", "reshaped"]
+- ["10StarifySDK10MultiArrayV", "shape"]
+- !private ["10StarifySDK10MultiArrayV", "stride"]
+- ["10StarifySDK10MultiArrayV", "strides"]
+- ["10StarifySDK10MultiArrayV", "subscript"]
+- ["10StarifySDK10MultiArrayV", "toRawBytesGray"]
+- ["10StarifySDK10MultiArrayV", "toRawBytesRGBA"]
+- ["10StarifySDK10MultiArrayV", "toRawBytesRGBATranHV"]
+- ["10StarifySDK10MultiArrayV", "transposed"]
+- ["10StarifySDK14MultiArrayTypeP", "*"]
+- ["10StarifySDK14MultiArrayTypeP", "+"]
+- ["10StarifySDK14MultiArrayTypeP", "Int"]
+- ["10StarifySDK14MultiArrayTypeP", "MLMultiArrayDataType"]
+- ["10StarifySDK14MultiArrayTypeP", "UInt8"]
+- ["10StarifySDK14MultiArrayTypeP", ""]
+- ["10StarifySDK14MultiArrayTypeP", "init"]
+- ["10StarifySDK14MultiArrayTypeP", "multiArrayDataType"]
+- ["10StarifySDK14MultiArrayTypeP", "toUInt8"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "reduce"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "reduce"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "fromByteArrayGray"]
+- !private ["So8NSCodingP", "fromByteArrayRGBA"]
+- !private ["So21NSItemProviderReadingP", "fromByteArrayGray"]
+- !private ["So21NSItemProviderReadingP", "fromByteArrayRGBA"]
+- !private ["So21NSItemProviderWritingP", "fromByteArrayGray"]
+- !private ["So21NSItemProviderWritingP", "fromByteArrayRGBA"]
+- !private ["So8NSObjectC", "dataPointer"]
+- !private ["So8NSObjectC", "fromByteArrayGray"]
+- !private ["So8NSObjectC", "fromByteArrayRGBA"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "shape"]
+- !private ["So8NSObjectC", "strides"]
+- !private ["So8NSObjectP", "dataPointer"]
+- !private ["So8NSObjectP", "fromByteArrayGray"]
+- !private ["So8NSObjectP", "fromByteArrayRGBA"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "shape"]
+- !private ["So8NSObjectP", "strides"]
+- !private ["So14NSSecureCodingP", "fromByteArrayGray"]
+- !private ["So14NSSecureCodingP", "fromByteArrayRGBA"]
+- ["Sj", "*"]
+- ["Sj", "+"]
+- !private ["Sj", "UInt8"]
+- ["Sj", "init"]
+- ["Sj", "multiArrayDataType"]
+- ["Sj", "toUInt8"]
+- !private ["s13OpaquePointerV", "init"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "reduce"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "reduce"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "double"]
+- !private ["SY", "float32"]
+- !private ["SY", "int32"]
+- ["s10SIMDScalarP", "*"]
+- ["s10SIMDScalarP", "+"]
+- !private ["s10SIMDScalarP", "UInt8"]
+- ["s10SIMDScalarP", "init"]
+- ["s10SIMDScalarP", "multiArrayDataType"]
+- ["s10SIMDScalarP", "toUInt8"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "reduce"]
+- !private ["ST", "subscript"]
+- ["SZ", "*"]
+- ["SZ", "+"]
+- !private ["SZ", "UInt8"]
+- ["SZ", "init"]
+- ["SZ", "multiArrayDataType"]
+- ["SZ", "toUInt8"]
+- ["s13SignedNumericP", "*"]
+- ["s13SignedNumericP", "+"]
+- !private ["s13SignedNumericP", "UInt8"]
+- ["s13SignedNumericP", "init"]
+- ["s13SignedNumericP", "multiArrayDataType"]
+- ["s13SignedNumericP", "toUInt8"]
+- ["Sx", "*"]
+- ["Sx", "+"]
+- !private ["Sx", "UInt8"]
+- ["Sx", "init"]
+- ["Sx", "multiArrayDataType"]
+- !private ["Sx", "subscript"]
+- ["Sx", "toUInt8"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "*"]
+- ["s20TextOutputStreamableP", "+"]
+- !private ["s20TextOutputStreamableP", "UInt8"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "multiArrayDataType"]
+- ["s20TextOutputStreamableP", "toUInt8"]
+- !private ["So29UIAccessibilityIdentificationP", "fromByteArrayGray"]
+- !private ["So29UIAccessibilityIdentificationP", "fromByteArrayRGBA"]
+- !private ["So7UIImageC", "fromByteArrayGray"]
+- !private ["So7UIImageC", "fromByteArrayRGBA"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "fromByteArrayGray"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "fromByteArrayRGBA"]
+- !private ["s5UInt8V", "init"]
+- !private ["Sp", "init"]
+- !private ["Sp", "subscript"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- ["s15_CVarArgAlignedP", "*"]
+- ["s15_CVarArgAlignedP", "+"]
+- !private ["s15_CVarArgAlignedP", "UInt8"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s15_CVarArgAlignedP", "multiArrayDataType"]
+- ["s15_CVarArgAlignedP", "toUInt8"]
+- ["s22_CVarArgPassedAsDoubleP", "*"]
+- ["s22_CVarArgPassedAsDoubleP", "+"]
+- !private ["s22_CVarArgPassedAsDoubleP", "UInt8"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "multiArrayDataType"]
+- ["s22_CVarArgPassedAsDoubleP", "toUInt8"]
+- ["s30_CustomPlaygroundQuickLookableP", "*"]
+- ["s30_CustomPlaygroundQuickLookableP", "+"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "UInt8"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "multiArrayDataType"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- ["s30_CustomPlaygroundQuickLookableP", "toUInt8"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "*"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "+"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "UInt8"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "multiArrayDataType"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "toUInt8"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "*"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "+"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "UInt8"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "multiArrayDataType"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "toUInt8"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "fromByteArrayGray"]
+- !private ["s26_ExpressibleByImageLiteralP", "fromByteArrayRGBA"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- ["s35_HasCustomAnyHashableRepresentationP", "*"]
+- ["s35_HasCustomAnyHashableRepresentationP", "+"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "UInt8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "multiArrayDataType"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["s35_HasCustomAnyHashableRepresentationP", "toUInt8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataPointer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fromByteArrayGray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fromByteArrayRGBA"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shape"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "strides"]
+- ["s21_ObjectiveCBridgeableP", "*"]
+- ["s21_ObjectiveCBridgeableP", "+"]
+- !private ["s21_ObjectiveCBridgeableP", "UInt8"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "multiArrayDataType"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "toUInt8"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["s14_StringElementP", "init"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- "SB"
+- "Sz"
+- "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "Sd"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "Sf"
+- "SF"
+- "SH"
+- "s5Int32V"
+- "s25LosslessStringConvertibleP"
+- !private "So12MLMultiArrayC"
+- !private "So20MLMultiArrayDataTypeV"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- "10StarifySDK10MultiArrayV"
+- "10StarifySDK14MultiArrayTypeP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "Sj"
+- !private "s13OpaquePointerV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "s10SIMDScalarP"
+- !private "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "s5UInt8V"
+- !private "Sp"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Vision.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/StarifySDK/StarifySDK.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTAnimationCache.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/Lottie.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTValueDelegate.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTAnimatedSwitch.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTKeypath.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTValueCallback.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTBlockCallback.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTInterpolatorCallback.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTAnimatedControl.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTComposition.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTCacheProvider.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTAnimationTransitionController.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/StarifySDK/StarifyViewController.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTAnimationView_Compat.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Headers/LOTAnimationView.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Intermediates.noindex/StarifiedSampleProject.build/Debug-iphonesimulator/StarifySDK.build/unextended-module.modulemap"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Products/Debug-iphonesimulator/Lottie.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Vision.framework/Headers/Vision.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/VideoToolbox.framework/Headers/VideoToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6c26fd606a8c211274a8b71864d1b0fc"

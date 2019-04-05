@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "3288167a81c923c9e39e8e584ab4766c"
+build_time: [1554489031, 620611000]
+inputs:
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/Spitfire/PixelBuffer.swift": [1554315966, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/Spitfire/Spitfire.swift": [1554315966, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/CoreMLHelpers/MLMultiArray+Image.swift": [1554348593, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/Spitfire/Errors.swift": [1554315966, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/CoreMLHelpers/CVPixelBuffer+Helpers.swift": [1554315966, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/CoreMLHelpers/Array.swift": [1554315966, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/CoreMLHelpers/MultiArray.swift": [1554315966, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/CoreMLHelpers/Math.swift": [1554315966, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/CoreMLHelpers/Predictions.swift": [1554315966, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/CoreMLHelpers/NonMaxSuppression.swift": [1554315966, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/RefineView.swift": [1554351915, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/CoreMLHelpers/UIImage+CVPixelBuffer.swift": [1554315966, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/CoreImageProcessing/MobileUnet.swift": [1554351827, 0]
+  "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Intermediates.noindex/StarifiedSampleProject.build/Debug-iphonesimulator/StarifySDK.build/DerivedSources/CoreMLGenerated/mobileunet_ver1/mobileunet_ver1.swift": [1554489031, 592164904]

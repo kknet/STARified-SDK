@@ -1,0 +1,461 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ContourFloat"
+- "ContourExtraction"
+provides-nominal:
+- "21StrokeEffectFramework12ContourFloatC"
+- "21StrokeEffectFramework17ContourExtractionC"
+provides-member:
+- ["21StrokeEffectFramework12ContourFloatC", ""]
+- ["21StrokeEffectFramework17ContourExtractionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..."
+- !private "..<"
+- !private "<"
+- !private "=="
+- !private ">"
+- !private ">="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ChainPointFloat"
+- "ChainPointInt"
+- "Contour"
+- "ContourExtraction"
+- "ContourFloat"
+- !private "Float"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "TernaryPrecedence"
+- "TraceHistory"
+- "UInt8"
+- !private "stride"
+- !private "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "endIndex"]
+- !private ["Sa", "first"]
+- ["Sa", "init"]
+- !private ["Sa", "last"]
+- !private ["Sa", "remove"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "removeLast"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["Sa", "reverse"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "endIndex"]
+- !private ["SK", "first"]
+- ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "remove"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "removeLast"]
+- !private ["SK", "reserveCapacity"]
+- !private ["SK", "reverse"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "endIndex"]
+- !private ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "removeLast"]
+- !private ["s7CVarArgP", "reserveCapacity"]
+- !private ["s7CVarArgP", "reverse"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["21StrokeEffectFramework15ChainPointFloatV", "distTo"]
+- !private ["21StrokeEffectFramework15ChainPointFloatV", "init"]
+- !private ["21StrokeEffectFramework15ChainPointFloatV", "x"]
+- !private ["21StrokeEffectFramework15ChainPointFloatV", "y"]
+- !private ["21StrokeEffectFramework13ChainPointIntV", "depth"]
+- !private ["21StrokeEffectFramework13ChainPointIntV", "init"]
+- !private ["21StrokeEffectFramework13ChainPointIntV", "x"]
+- !private ["21StrokeEffectFramework13ChainPointIntV", "y"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "first"]
+- ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "removeLast"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "reverse"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "endIndex"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
+- !private ["10Foundation15ContiguousBytesP", "removeAll"]
+- !private ["10Foundation15ContiguousBytesP", "removeLast"]
+- !private ["10Foundation15ContiguousBytesP", "reserveCapacity"]
+- !private ["10Foundation15ContiguousBytesP", "reverse"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["21StrokeEffectFramework17ContourExtractionC", "ChainPointFloat"]
+- ["21StrokeEffectFramework17ContourExtractionC", "ChainPointInt"]
+- ["21StrokeEffectFramework17ContourExtractionC", "Contour"]
+- ["21StrokeEffectFramework17ContourExtractionC", "ContourFloat"]
+- !private ["21StrokeEffectFramework17ContourExtractionC", "Float"]
+- ["21StrokeEffectFramework17ContourExtractionC", "Int"]
+- ["21StrokeEffectFramework17ContourExtractionC", "TraceHistory"]
+- ["21StrokeEffectFramework17ContourExtractionC", "UInt8"]
+- ["21StrokeEffectFramework17ContourExtractionC", "findContours"]
+- !private ["21StrokeEffectFramework17ContourExtractionC", "height"]
+- ["21StrokeEffectFramework17ContourExtractionC", "init"]
+- !private ["21StrokeEffectFramework17ContourExtractionC", "sortAndConvertContour"]
+- !private ["21StrokeEffectFramework17ContourExtractionC", "stride"]
+- !private ["21StrokeEffectFramework17ContourExtractionC", "toVisit"]
+- !private ["21StrokeEffectFramework17ContourExtractionC", "traceContour"]
+- !private ["21StrokeEffectFramework17ContourExtractionC", "traceHistory"]
+- !private ["21StrokeEffectFramework17ContourExtractionC", "width"]
+- ["21StrokeEffectFramework12ContourFloatC", "ChainPointFloat"]
+- ["21StrokeEffectFramework12ContourFloatC", "ChainPointInt"]
+- ["21StrokeEffectFramework12ContourFloatC", "Int"]
+- !private ["21StrokeEffectFramework12ContourFloatC", "_points"]
+- ["21StrokeEffectFramework12ContourFloatC", "addPoint"]
+- ["21StrokeEffectFramework12ContourFloatC", "count"]
+- ["21StrokeEffectFramework12ContourFloatC", "init"]
+- ["21StrokeEffectFramework12ContourFloatC", "lastPoint"]
+- ["21StrokeEffectFramework12ContourFloatC", "points"]
+- ["21StrokeEffectFramework12ContourFloatC", "reverse"]
+- ["21StrokeEffectFramework12ContourFloatC", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeLast"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "reverse"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "endIndex"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "removeLast"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "reverse"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeLast"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "reverse"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "endIndex"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["10Foundation12DataProtocolP", "remove"]
+- !private ["10Foundation12DataProtocolP", "removeAll"]
+- !private ["10Foundation12DataProtocolP", "removeLast"]
+- !private ["10Foundation12DataProtocolP", "reserveCapacity"]
+- !private ["10Foundation12DataProtocolP", "reverse"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "endIndex"]
+- !private ["Se", "first"]
+- ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "remove"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "removeLast"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "reverse"]
+- !private ["Se", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "endIndex"]
+- !private ["SE", "first"]
+- ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "remove"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "removeLast"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "reverse"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "endIndex"]
+- !private ["SQ", "first"]
+- ["SQ", "init"]
+- !private ["SQ", "last"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "removeLast"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "reverse"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "endIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeLast"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["s25ExpressibleByArrayLiteralP", "reverse"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "endIndex"]
+- !private ["SH", "first"]
+- ["SH", "init"]
+- !private ["SH", "last"]
+- !private ["SH", "remove"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "removeLast"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "reverse"]
+- !private ["SH", "subscript"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "endIndex"]
+- !private ["SM", "first"]
+- ["SM", "init"]
+- !private ["SM", "last"]
+- !private ["SM", "remove"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "removeLast"]
+- !private ["SM", "reserveCapacity"]
+- !private ["SM", "reverse"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "endIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
+- !private ["10Foundation19MutableDataProtocolP", "removeAll"]
+- !private ["10Foundation19MutableDataProtocolP", "removeLast"]
+- !private ["10Foundation19MutableDataProtocolP", "reserveCapacity"]
+- !private ["10Foundation19MutableDataProtocolP", "reverse"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sj", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "endIndex"]
+- !private ["Sk", "first"]
+- ["Sk", "init"]
+- !private ["Sk", "last"]
+- !private ["Sk", "remove"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "removeLast"]
+- !private ["Sk", "reserveCapacity"]
+- !private ["Sk", "reverse"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "endIndex"]
+- !private ["Sm", "first"]
+- ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "removeLast"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "reverse"]
+- !private ["Sm", "subscript"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "endIndex"]
+- !private ["ST", "first"]
+- ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "remove"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "removeLast"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "reverse"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "endIndex"]
+- !private ["s14_ArrayProtocolP", "first"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s14_ArrayProtocolP", "removeLast"]
+- !private ["s14_ArrayProtocolP", "reserveCapacity"]
+- !private ["s14_ArrayProtocolP", "reverse"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "endIndex"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "removeLast"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s24_DestructorSafeContainerP", "reverse"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "endIndex"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s19_HasContiguousBytesP", "remove"]
+- !private ["s19_HasContiguousBytesP", "removeAll"]
+- !private ["s19_HasContiguousBytesP", "removeLast"]
+- !private ["s19_HasContiguousBytesP", "reserveCapacity"]
+- !private ["s19_HasContiguousBytesP", "reverse"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "endIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeLast"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reverse"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "endIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "removeLast"]
+- !private ["s21_ObjectiveCBridgeableP", "reserveCapacity"]
+- !private ["s21_ObjectiveCBridgeableP", "reverse"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "Sa"
+- "SK"
+- !private "Sz"
+- "s7CVarArgP"
+- !private "21StrokeEffectFramework15ChainPointFloatV"
+- !private "21StrokeEffectFramework13ChainPointIntV"
+- "Sl"
+- !private "SL"
+- "10Foundation15ContiguousBytesP"
+- "21StrokeEffectFramework17ContourExtractionC"
+- "21StrokeEffectFramework12ContourFloatC"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- "Sk"
+- "Sm"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MetalKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/externals/outline_strok_drawing_impl/StrokeEffectFramework/StrokeEffectFramework.h"
+- "/Users/admin/Desktop/StarifiedSampleProject/ios/build/StarifiedSampleProject/Build/Intermediates.noindex/StrokeEffect.build/Debug-iphonesimulator/StrokeEffectFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers/MetalPerformanceShaders.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MetalKit.framework/Headers/MetalKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6a963523ec5f61ebca3e81150592c8f7"
