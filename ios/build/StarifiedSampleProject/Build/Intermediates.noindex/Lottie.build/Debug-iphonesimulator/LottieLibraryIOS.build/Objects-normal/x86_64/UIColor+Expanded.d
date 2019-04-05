@@ -1,4 +1,0 @@
-dependencies: \
-  /Users/admin/Desktop/StarifiedSampleProject/node_modules/lottie-ios/lottie-ios/Classes/Extensions/UIColor+Expanded.m \
-  /Users/admin/Desktop/StarifiedSampleProject/node_modules/lottie-ios/lottie-ios/Classes/Extensions/UIColor+Expanded.h \
-  /Users/admin/Desktop/StarifiedSampleProject/node_modules/lottie-ios/lottie-ios/Classes/MacCompatability/LOTPlatformCompat.h

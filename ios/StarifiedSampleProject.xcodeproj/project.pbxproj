@@ -19,10 +19,14 @@
 		B0BB4BB40B3C40D494D9174B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 490486815B9E4FCC9E0066F4 /* SimpleLineIcons.ttf */; };
 		B582F434EDCC48019022DA30 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF4DBC116F499BB90A22D7 /* Montserrat-Medium.otf */; };
 		B6104110BC414D578C439D0D /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD5FF237AFA344DDA53E3095 /* MaterialCommunityIcons.ttf */; };
+		BB0DA27E2258012800EAF280 /* StarifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6EBBE12255863700DC832B /* StarifySDK.framework */; };
+		BB0DA27F2258012800EAF280 /* StarifySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB6EBBE12255863700DC832B /* StarifySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BB0DA2832258019000EAF280 /* StrokeEffectFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFC91822553F6B00824FB2 /* StrokeEffectFramework.framework */; };
+		BB0DA2842258019000EAF280 /* StrokeEffectFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFC91822553F6B00824FB2 /* StrokeEffectFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BB0DA287225801D600EAF280 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFC7C6225534EE00824FB2 /* Lottie.framework */; };
+		BB0DA288225801D600EAF280 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFC7C6225534EE00824FB2 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BB57E2D5225564090086F3C7 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = BB57E297225564090086F3C7 /* assets */; };
 		BB6EBBE52255863700DC832B /* StarifySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6EBBE32255863700DC832B /* StarifySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB6EBBE82255863700DC832B /* StarifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6EBBE12255863700DC832B /* StarifySDK.framework */; };
-		BB6EBBE92255863700DC832B /* StarifySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB6EBBE12255863700DC832B /* StarifySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BB6EBBF22255883200DC832B /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		BB6EBBF32255887500DC832B /* StrokeEffectFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFC91822553F6B00824FB2 /* StrokeEffectFramework.framework */; };
 		BB6EBBF42255888C00DC832B /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
@@ -89,7 +93,6 @@
 		BB8A5C2D2255CA4C0014FD17 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB8A5C1E2255CA4C0014FD17 /* Montserrat-ExtraBold.otf */; };
 		BB8A5C2E2255CA4C0014FD17 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB8A5C1F2255CA4C0014FD17 /* SimpleLineIcons.ttf */; };
 		BB8A5C2F2255CA4C0014FD17 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB8A5C202255CA4C0014FD17 /* MaterialIcons.ttf */; };
-		BB9220472255AB5A0005388F /* StrokeEffectFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCFC91822553F6B00824FB2 /* StrokeEffectFramework.framework */; };
 		BB9220832255ABC60005388F /* StarifyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9220812255ABC60005388F /* StarifyViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB9220842255ABC60005388F /* StarifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9220822255ABC60005388F /* StarifyViewController.m */; };
 		BB9220862255AD630005388F /* assets in Resources */ = {isa = PBXBuildFile; fileRef = BB9220852255AD630005388F /* assets */; };
@@ -334,19 +337,33 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
+		BB0DA2802258012800EAF280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6EBBE02255863700DC832B;
+			remoteInfo = StarifySDK;
+		};
+		BB0DA2852258019000EAF280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBCFC90622553F6B00824FB2 /* StrokeEffect.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E260142E2033380A00A4B351;
+			remoteInfo = StrokeEffectFramework;
+		};
+		BB0DA289225801D600EAF280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A57A7B1BDE1F40DDA2E7E810 /* Lottie.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 62CA59B71E3C173B002D7188;
+			remoteInfo = Lottie_iOS;
+		};
 		BB25CEAB225540A20024B2A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BB25CEA7225540A20024B2A5 /* RCTCameraRoll.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
 			remoteInfo = RCTCameraRoll;
-		};
-		BB6EBBE62255863700DC832B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB6EBBE02255863700DC832B;
-			remoteInfo = StarifySDK;
 		};
 		BBCFC737225533EB00824FB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -540,13 +557,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BB6EBBED2255863700DC832B /* Embed Frameworks */ = {
+		BB0DA2822258012800EAF280 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BB6EBBE92255863700DC832B /* StarifySDK.framework in Embed Frameworks */,
+				BB0DA2842258019000EAF280 /* StrokeEffectFramework.framework in Embed Frameworks */,
+				BB0DA27F2258012800EAF280 /* StarifySDK.framework in Embed Frameworks */,
+				BB0DA288225801D600EAF280 /* Lottie.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -671,8 +690,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB9220472255AB5A0005388F /* StrokeEffectFramework.framework in Frameworks */,
-				BB6EBBE82255863700DC832B /* StarifySDK.framework in Frameworks */,
+				BB0DA27E2258012800EAF280 /* StarifySDK.framework in Frameworks */,
+				BB0DA2832258019000EAF280 /* StrokeEffectFramework.framework in Frameworks */,
+				BB0DA287225801D600EAF280 /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1175,12 +1195,14 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				BB6EBBED2255863700DC832B /* Embed Frameworks */,
+				BB0DA2822258012800EAF280 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BB6EBBE72255863700DC832B /* PBXTargetDependency */,
+				BB0DA2812258012800EAF280 /* PBXTargetDependency */,
+				BB0DA2862258019000EAF280 /* PBXTargetDependency */,
+				BB0DA28A225801D600EAF280 /* PBXTargetDependency */,
 			);
 			name = StarifiedSampleProject;
 			productName = "Hello World";
@@ -1215,11 +1237,12 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = BZ82DRDZY8;
+						DevelopmentTeam = 6J2D55TWU7;
 						LastSwiftMigration = 1010;
 					};
 					BB6EBBE02255863700DC832B = {
 						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 6J2D55TWU7;
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
@@ -1230,7 +1253,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -1838,7 +1860,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1883,10 +1905,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BB6EBBE72255863700DC832B /* PBXTargetDependency */ = {
+		BB0DA2812258012800EAF280 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BB6EBBE02255863700DC832B /* StarifySDK */;
-			targetProxy = BB6EBBE62255863700DC832B /* PBXContainerItemProxy */;
+			targetProxy = BB0DA2802258012800EAF280 /* PBXContainerItemProxy */;
+		};
+		BB0DA2862258019000EAF280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StrokeEffectFramework;
+			targetProxy = BB0DA2852258019000EAF280 /* PBXContainerItemProxy */;
+		};
+		BB0DA28A225801D600EAF280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Lottie_iOS;
+			targetProxy = BB0DA289225801D600EAF280 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1912,7 +1944,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				DEVELOPMENT_TEAM = 6J2D55TWU7;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = StarifiedSampleProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -1943,7 +1975,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BZ82DRDZY8;
+				DEVELOPMENT_TEAM = 6J2D55TWU7;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = StarifiedSampleProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -2080,6 +2112,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6J2D55TWU7;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -2103,6 +2136,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -2137,6 +2171,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6J2D55TWU7;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
