@@ -21,7 +21,19 @@ const purgeTempFiles = async () => {
 
 const copyToDocuments = async (fileUri, newName) => {
   let newPath = RNFetchBlob.fs.dirs.DocumentDir + '/' + newName;
-  return RNFetchBlob.fs.cp(fileUri, newPath);
+  const fileExist = await RNFetchBlob.fs.exists(newPath);
+
+  if (fileExist) {
+    await RNFetchBlob.fs.unlink(path);
+  }
+
+  let refineFileUri = fileUri;
+
+  // RNFetchBlob doesn't work with file://
+  if (refineFileUri.startsWith('file://')) {
+    refineFileUri = refineFileUri.split('file://')[1];
+  }
+  return RNFetchBlob.fs.cp(refineFileUri, newPath);
 };
 
 export { getPathInDocuments, purgeTempFiles, copyToDocuments };

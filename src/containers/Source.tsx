@@ -11,7 +11,8 @@ import {
   NativeModules,
   Modal,
   Text,
-  SafeAreaView
+  SafeAreaView,
+  TouchableOpacity,
 } from 'react-native';
 import { Palette } from '../Palette';
 import {
@@ -34,6 +35,10 @@ import { purgeTempFiles } from './../fs';
 import { updateSource } from '../ducks/source';
 import { getDesigns, validateLocalData } from '../ducks/designs';
 
+// Manager for posting notifications to NSNotificationCenter
+var NotificationManager = require('react-native').NativeModules
+  .NotificationManager;
+
 class Source extends React.Component<Props, State> {
   public sourceSelector: any = null;
   public videoRef: any = null;
@@ -51,6 +56,7 @@ class Source extends React.Component<Props, State> {
     this.onTakePicture = this.onTakePicture.bind(this);
     this.onTakeVideo = this.onTakeVideo.bind(this);
     this.onCancelGallery = this.onCancelGallery.bind(this);
+    this.onStarifedClose = this.onStarifedClose.bind(this);
   }
 
   async onTakePicture(data: TakePictureResponse): Promise<void> {
@@ -63,6 +69,12 @@ class Source extends React.Component<Props, State> {
       }
     );
   }
+
+  onStarifedClose = () => {
+    // Post NSNotification about Starified closing to native side.
+    // You should always send second arg
+    NotificationManager.postNotification('StarifiedClosingRequest', {});
+  };
 
   segmentation(data: any): void {
     var Segmentation = NativeModules.MobileUnetSegmentation;
@@ -166,6 +178,15 @@ class Source extends React.Component<Props, State> {
             ref={ref => (this.sourceSelector = ref)}
             handleSnap={this.onSourceType}
           />
+
+          <TouchableOpacity
+            style={styles.closeButton}
+            onPress={this.onStarifedClose}
+          >
+            <Text style={styles.closeButtonText}>
+              Close
+            </Text>
+          </TouchableOpacity>
 
           <Camera
             sourceType={sourceTypeIndex}
@@ -279,6 +300,20 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'flex-start',
     backgroundColor: Palette.bgColor
+  },
+  closeButton: {
+    position: 'absolute',
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    top: 0,
+    left: 8,
+    height: 44,
+  },
+  closeButtonText: {
+    ...Palette.textMedium17,
+    fontWeight: 'bold',
+    color: Palette.colorBlack
   },
   previewContainer: {
     position: 'absolute',

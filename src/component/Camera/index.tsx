@@ -66,7 +66,7 @@ export class Camera extends React.PureComponent<IProps, IState> {
 
         console.log('debug componentWillReceiveProps newPath', newPath);
       },
-      error => console.error(error)
+      () => null
     );
   }
   handleCameraType(): void {
@@ -106,7 +106,6 @@ export class Camera extends React.PureComponent<IProps, IState> {
         const data: TakePictureResponse = await this.camera.takePictureAsync(
           options
         );
-
         await copyToDocuments(data.uri, 'input_img.png');
         const newPath = getPathInDocuments('input_img.png');
         let result: TakePictureResponse = {

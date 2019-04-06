@@ -34,6 +34,10 @@ import { captureRef } from 'react-native-view-shot';
 import hexRgb from 'hex-rgb';
 import { getPathInDocuments } from './../../fs';
 
+// Manager for posting notifications to NSNotificationCenter
+var NotificationManager = require('react-native').NativeModules
+  .NotificationManager;
+
 export class Preview extends React.PureComponent<Props, State> {
   public animationRefs: any[];
 
@@ -159,6 +163,7 @@ export class Preview extends React.PureComponent<Props, State> {
       this.props.selectedDesign.config.animated[
         this.state.currentPreviewIdx - 1
       ] === false;
+
     if (exportImage) {
       try {
         const uri = await captureRef(this.rootRef, {
@@ -167,6 +172,10 @@ export class Preview extends React.PureComponent<Props, State> {
         });
         await CameraRoll.saveToCameraRoll(uri);
         Alert.alert('Success', 'Image exported to camera roll');
+
+        // Post NSNotification with image URI to NSNotificationCenter (handle it on native Swift side)
+        // You should always send second arg
+        NotificationManager.postNotification('StarifiedImageRendered', { uri });
       } catch (err) {
         Alert.alert('Error', err);
       } finally {
@@ -174,7 +183,8 @@ export class Preview extends React.PureComponent<Props, State> {
       }
     } else {
       const root = findNodeHandle(this.rootRef);
-      const VideoExporter = NativeModules.VideoExporter;
+      const LottieManager = NativeModules.LottieManager;
+
       try {
         let lottieRef = null;
 
@@ -188,7 +198,19 @@ export class Preview extends React.PureComponent<Props, State> {
         if (this.props.selectedDesign && this.props.selectedDesign.config) {
           repeats = Number.parseFloat(this.props.selectedDesign.config.repeat);
         }
-        await VideoExporter.export(root, lottieRef, repeats ? repeats : 1);
+
+        await LottieManager.exportVideo(root,
+          lottieRef,
+          repeats ? repeats : 1,
+        )
+          .then((renderedVideoURL: string) => {
+            if (renderedVideoURL) {
+              // Post NSNotification with video URI to NSNotificationCenter (handle it on native Swift side)
+              // You should always send second arg
+              NotificationManager.postNotification('StarifiedVideoRendered', { uri: renderedVideoURL });
+            }
+          });
+
         Alert.alert('Success', 'Video exported to documents folder');
       } catch (error) {
         Alert.alert('Error', 'Error while exporting');
@@ -225,7 +247,7 @@ export class Preview extends React.PureComponent<Props, State> {
     else return <View />;
   }
 
-  addReplacedConent(lottieRef: Object) {
+  async addReplacedConent(lottieRef: Object) {
     const { sourceData } = this.props;
     const { selectedDesign } = this.props;
     if (!lottieRef) {
@@ -233,9 +255,23 @@ export class Preview extends React.PureComponent<Props, State> {
     }
     if (selectedDesign && selectedDesign.config['lottie-replace-layers']) {
       Object.keys(selectedDesign.config['lottie-replace-layers']).forEach(
-        key => {
+        async key => {
+          const LottieManager = NativeModules.LottieManager;
           const layers = selectedDesign.config['lottie-replace-layers'][key];
-          lottieRef.replaceBodyLayers(sourceData.outputBlended, layers);
+
+          let lottieRef = null;
+
+          if (this.props.selectedDesign) {
+            lottieRef = this.animationRefs[
+              this.state.currentPreviewIdx - 1
+            ].getHandle();
+          }
+          await LottieManager.replaceLayers(
+            lottieRef,
+            sourceData.outputBlended,
+            layers
+          );
+
           this.setState({ replacedLayers: true });
         }
       );

@@ -15,6 +15,10 @@
 		4C964C88521A4DFC8E2BBBE1 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8E4782052E74884ABE49D88 /* Entypo.ttf */; };
 		4E69F05FCE6F4C38B9171092 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1016FD54484E7FA79EE2E9 /* Ionicons.ttf */; };
 		7BDBB52ACAA64E05AFD58575 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E0E283F35FB144DC920B8AA7 /* Montserrat-Bold.otf */; };
+		97865924225823390060344C /* LottieManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 978658E5225823380060344C /* LottieManager.m */; };
+		97865925225823390060344C /* LottieManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97865923225823390060344C /* LottieManager.h */; };
+		9786592822582AA40060344C /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786592622582A8E0060344C /* NotificationManager.m */; };
+		9786592922582AA40060344C /* NotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9786592722582AA40060344C /* NotificationManager.h */; };
 		AE20D5E645A34B60B39BEF39 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97D487DA32074192A7BA49B6 /* Montserrat-Regular.otf */; };
 		B0BB4BB40B3C40D494D9174B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 490486815B9E4FCC9E0066F4 /* SimpleLineIcons.ttf */; };
 		B582F434EDCC48019022DA30 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF4DBC116F499BB90A22D7 /* Montserrat-Medium.otf */; };
@@ -60,7 +64,6 @@
 		BB8A5B4F2255BB950014FD17 /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8A5B342255BB950014FD17 /* NonMaxSuppression.swift */; };
 		BB8A5B502255BB950014FD17 /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8A5B352255BB950014FD17 /* MLMultiArray+Image.swift */; };
 		BB8A5B512255BB950014FD17 /* MobileUnetSegmentation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8A5B362255BB950014FD17 /* MobileUnetSegmentation.m */; };
-		BB8A5B522255BB950014FD17 /* VideoExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8A5B372255BB950014FD17 /* VideoExporter.m */; };
 		BB8A5B542255BB950014FD17 /* OutlineStrokeDrawingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8A5B392255BB950014FD17 /* OutlineStrokeDrawingManager.m */; };
 		BB8A5B552255BB950014FD17 /* ImageBlender.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8A5B3A2255BB950014FD17 /* ImageBlender.m */; };
 		BB8A5B562255BB950014FD17 /* Spitfire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8A5B3C2255BB950014FD17 /* Spitfire.swift */; };
@@ -592,6 +595,10 @@
 		80117B28087E48EE814A3DF6 /* RCTVideo.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTVideo.xcodeproj; path = "../node_modules/react-native-video/ios/RCTVideo.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		857037F15EC84472B7F994A2 /* libRNFetchBlob.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFetchBlob.a; sourceTree = "<group>"; };
+		978658E5225823380060344C /* LottieManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LottieManager.m; path = "../../../starified-release/ios/starified/LottieManager.m"; sourceTree = "<group>"; };
+		97865923225823390060344C /* LottieManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LottieManager.h; path = "../../../starified-release/ios/starified/LottieManager.h"; sourceTree = "<group>"; };
+		9786592622582A8E0060344C /* NotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManager.m; sourceTree = "<group>"; };
+		9786592722582AA40060344C /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
 		97D487DA32074192A7BA49B6 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.otf"; path = "../assets/fonts/Montserrat-Regular.otf"; sourceTree = "<group>"; };
 		9E5176F1574E49FAA7CD60F2 /* LottieReactNative.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = LottieReactNative.xcodeproj; path = "../node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj"; sourceTree = "<group>"; };
 		9FEF4DBC116F499BB90A22D7 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.otf"; path = "../assets/fonts/Montserrat-Medium.otf"; sourceTree = "<group>"; };
@@ -615,7 +622,6 @@
 		BB8A5B342255BB950014FD17 /* NonMaxSuppression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
 		BB8A5B352255BB950014FD17 /* MLMultiArray+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Image.swift"; sourceTree = "<group>"; };
 		BB8A5B362255BB950014FD17 /* MobileUnetSegmentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileUnetSegmentation.m; sourceTree = "<group>"; };
-		BB8A5B372255BB950014FD17 /* VideoExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoExporter.m; sourceTree = "<group>"; };
 		BB8A5B382255BB950014FD17 /* OutlineStrokeDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutlineStrokeDrawingView.h; sourceTree = "<group>"; };
 		BB8A5B392255BB950014FD17 /* OutlineStrokeDrawingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutlineStrokeDrawingManager.m; sourceTree = "<group>"; };
 		BB8A5B3A2255BB950014FD17 /* ImageBlender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageBlender.m; sourceTree = "<group>"; };
@@ -626,7 +632,6 @@
 		BB8A5B402255BB950014FD17 /* RefineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefineView.swift; sourceTree = "<group>"; };
 		BB8A5B412255BB950014FD17 /* OutlineStrokeDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutlineStrokeDrawingView.m; sourceTree = "<group>"; };
 		BB8A5B422255BB950014FD17 /* mobileunet_ver1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mobileunet_ver1.mlmodel; sourceTree = "<group>"; };
-		BB8A5B432255BB950014FD17 /* VideoExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoExporter.h; sourceTree = "<group>"; };
 		BB8A5B442255BB950014FD17 /* MobileUnet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileUnet.swift; sourceTree = "<group>"; };
 		BB8A5B452255BB950014FD17 /* MobileUnetSegmentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileUnetSegmentation.h; sourceTree = "<group>"; };
 		BB8A5B462255BB950014FD17 /* ImageBlender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBlender.h; sourceTree = "<group>"; };
@@ -932,6 +937,8 @@
 				BB6EBBE42255863700DC832B /* Info.plist */,
 				BB9220812255ABC60005388F /* StarifyViewController.h */,
 				BB9220822255ABC60005388F /* StarifyViewController.m */,
+				9786592722582AA40060344C /* NotificationManager.h */,
+				9786592622582A8E0060344C /* NotificationManager.m */,
 			);
 			path = StarifySDK;
 			sourceTree = "<group>";
@@ -942,7 +949,6 @@
 				BB8A5B2C2255BB950014FD17 /* RefineViewManager.m */,
 				BB8A5B2D2255BB950014FD17 /* CoreMLHelpers */,
 				BB8A5B362255BB950014FD17 /* MobileUnetSegmentation.m */,
-				BB8A5B372255BB950014FD17 /* VideoExporter.m */,
 				BB8A5B382255BB950014FD17 /* OutlineStrokeDrawingView.h */,
 				BB8A5B392255BB950014FD17 /* OutlineStrokeDrawingManager.m */,
 				BB8A5B3A2255BB950014FD17 /* ImageBlender.m */,
@@ -951,11 +957,12 @@
 				BB8A5B402255BB950014FD17 /* RefineView.swift */,
 				BB8A5B412255BB950014FD17 /* OutlineStrokeDrawingView.m */,
 				BB8A5B422255BB950014FD17 /* mobileunet_ver1.mlmodel */,
-				BB8A5B432255BB950014FD17 /* VideoExporter.h */,
 				BB8A5B442255BB950014FD17 /* MobileUnet.swift */,
 				BB8A5B452255BB950014FD17 /* MobileUnetSegmentation.h */,
 				BB8A5B462255BB950014FD17 /* ImageBlender.h */,
 				BB8A5B472255BB950014FD17 /* OutlineStrokeDrawingManager.h */,
+				97865923225823390060344C /* LottieManager.h */,
+				978658E5225823380060344C /* LottieManager.m */,
 			);
 			path = CoreImageProcessing;
 			sourceTree = SOURCE_ROOT;
@@ -1158,7 +1165,9 @@
 				BB8A5B592255BB950014FD17 /* RefineViewManager.h in Headers */,
 				BB8A5B612255BB950014FD17 /* OutlineStrokeDrawingManager.h in Headers */,
 				BB6EBBE52255863700DC832B /* StarifySDK.h in Headers */,
+				97865925225823390060344C /* LottieManager.h in Headers */,
 				BB8A5B602255BB950014FD17 /* ImageBlender.h in Headers */,
+				9786592922582AA40060344C /* NotificationManager.h in Headers */,
 				BB8A5B5F2255BB950014FD17 /* MobileUnetSegmentation.h in Headers */,
 				BB9220832255ABC60005388F /* StarifyViewController.h in Headers */,
 			);
@@ -1862,13 +1871,13 @@
 				BB8A5B502255BB950014FD17 /* MLMultiArray+Image.swift in Sources */,
 				BB9220842255ABC60005388F /* StarifyViewController.m in Sources */,
 				BB8A5B5B2255BB950014FD17 /* OutlineStrokeDrawingView.m in Sources */,
-				BB8A5B522255BB950014FD17 /* VideoExporter.m in Sources */,
 				BB8A5B572255BB950014FD17 /* Errors.swift in Sources */,
 				BB8A5B4E2255BB950014FD17 /* CVPixelBuffer+Helpers.swift in Sources */,
 				BB8A5B512255BB950014FD17 /* MobileUnetSegmentation.m in Sources */,
 				BB8A5B4B2255BB950014FD17 /* Array.swift in Sources */,
 				BB8A5B482255BB950014FD17 /* RefineViewManager.m in Sources */,
 				BB8A5B4D2255BB950014FD17 /* MultiArray.swift in Sources */,
+				9786592822582AA40060344C /* NotificationManager.m in Sources */,
 				BB8A5B552255BB950014FD17 /* ImageBlender.m in Sources */,
 				BB8A5B492255BB950014FD17 /* Math.swift in Sources */,
 				BB8A5B4C2255BB950014FD17 /* Predictions.swift in Sources */,
@@ -1877,6 +1886,7 @@
 				BB8A5B542255BB950014FD17 /* OutlineStrokeDrawingManager.m in Sources */,
 				BB8A5B4A2255BB950014FD17 /* UIImage+CVPixelBuffer.swift in Sources */,
 				BB8A5B5E2255BB950014FD17 /* MobileUnet.swift in Sources */,
+				97865924225823390060344C /* LottieManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

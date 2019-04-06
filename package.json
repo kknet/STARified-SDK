@@ -1,18 +1,21 @@
 {
-  "name": "StarifiedSampleProject",
+  "name": "starified",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "bluebird": "^3.5.3",
+    "bluebird": "^3.5.4",
     "hex-rgb": "^3.0.0",
     "lodash": "^4.17.11",
     "lottie-react-native": "^2.6.1",
+    "prop-types": "^15.6.1",
     "react": "16.8.3",
-    "react-native": "0.59.3",
+    "react-addons-shallow-compare": "15.6.2",
+    "react-native": "0.59.2",
     "react-native-blur": "^3.2.2",
     "react-native-camera": "git+https://git@github.com/react-native-community/react-native-camera",
     "react-native-gesture-handler": "^1.1.0",
@@ -29,15 +32,17 @@
     "redux": "^4.0.1",
     "redux-persist": "^5.10.0",
     "redux-thunk": "^2.3.0",
-    "rn-fetch-blob": "^0.10.15",
-    "prop-types": "^15.6.1",
-    "react-addons-shallow-compare": "15.6.2"
+    "rn-fetch-blob": "^0.10.15"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/runtime": "^7.4.3",
-    "babel-jest": "^24.7.0",
-    "jest": "^24.7.0",
+    "@babel/core": "^7.4.0",
+    "@babel/runtime": "^7.4.2",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "@types/react": "^16.8.10",
+    "@types/react-native": "^0.57.42",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.15.3",
+    "jest": "^24.5.0",
     "metro-react-native-babel-preset": "^0.53.1",
     "react-test-renderer": "16.8.3"
   },
